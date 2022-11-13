@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #1e1c2a;
+}
+header{
+    background-color: #1e1c2a;
+    padding: 30px;
+    /* background-color: blue; */
+    padding-bottom: 20px;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:30 175px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    padding-left: 40px;
+    position: fixed;
+}
+.logo{
+    color: #ff702a;
+    font-weight: 600;
+    font-size:30px;
+    margin-left: 150px;
+}
+#menu-icon{
+    color: #ff702a;
+font-size: 30px;
+display: none;
+}
+.navbar{
+display: flex;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul a{
+color: #fff;
+font-size: 23px;
+font-weight: 600;
+/* margin: 0 15px; */
+padding: 10 20px;
+margin-right: 30px;
+
+}
+
+.navbar ul{
+    margin-right: 120px;
+}
+.navbar a:hover{
+color: #ff702a;
+}
+section{
+    padding: 70 17px;
+ margin-left: 90PX;
+    margin-top: 150px;
+display: flex;
+justify-content: space-between;
+margin-right: 25px;
+}
+.home-text{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+padding-top: 110px;}
+.home-img{
+    padding-right: 65px;
+}
+.home-button{
+    margin-top: 11px;
+    display: inline-block;
+    background-color: #ff702a;
+font-weight: 600;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 6px;
+text-transform: uppercase;}
+    .home-button:hover{
+        background-color: #911;
+        transition: all 0.45s ease;
+transform:scale(1.2) translateY(10px)
+    }.home-text h1{
+        color: #ff702a;
+        font-size: 60px;
+
+    }
+
+    /* About Section*/
+  .about{
+display: flex;
+justify-content:space-between;
+align-items: center;
+  }
+  .about-img img{
+    width: 400px;
+
+  }
+  .text{
+    padding-left: 30px  ;
+    color: #fff;
+  }
+  .text span{
+    text-align: center;
+    color: #ff702a;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 260px;
+
+  }
+  h3{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  p{
+    text-align: justify;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .text a{
+    margin-left: 310px;
+    margin-top: 30px;
+  }
+
+  /* MENU STARTED*/
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    color: #ff702a;
+    font-size: 40px;
+}
+.box{
+    text-align: center;
+    color: white;
+}
+.menu-container .boxmenu-img img{
+width: 250px;
+}
